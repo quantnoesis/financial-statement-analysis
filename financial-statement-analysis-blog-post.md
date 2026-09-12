@@ -27,7 +27,7 @@ To avoid over-indexing on one ratio, I pulled two more views:
 - **Current Ratio** (short-term liquidity — can a company cover its near-term obligations?)
 - **Debt-to-Equity** (leverage — how much debt is the company carrying relative to equity?)
 
-Sorting by Current Ratio surfaced a different group of companies entirely from the ROE leaderboard — *[fill in: your top 10 liquidity names once you run the chart]*. That alone is worth sitting with: the "best" company depends entirely on which question you're asking. A company can be a poor ROE performer and still be extremely safe on liquidity, or vice versa.
+Sorting by Current Ratio surfaced a completely different leaderboard from ROE — **NVIDIA, Activision Blizzard, Texas Instruments, Intuitive Surgical, Arista Networks, TransDigm Group, DexCom, Monster Beverage, Vertex Pharmaceuticals, and Zoetis** topped the list, all with current ratios well above 3 (NVIDIA highest at over 7). None of these were anywhere near the ROE top 10. That alone is worth sitting with: the "best" company depends entirely on which question you're asking. A company can be a poor ROE performer and still be extremely safe on liquidity, or vice versa — profitability and short-term financial safety are simply answering different questions.
 
 Looking at these alongside ROE gives a much more honest picture than any single number in isolation. A company with a sky-high ROE but also very high debt-to-equity is telling a very different story than one with high ROE and conservative leverage — even if the ROE figure looks identical on paper.
 
@@ -35,7 +35,9 @@ Looking at these alongside ROE gives a much more honest picture than any single 
 
 The McKesson observation raised a question: is this a one-off, or a pattern? To check, I plotted every company's ROE against its Debt-to-Equity ratio in a single scatter chart, rather than just looking at the top 10.
 
-*[fill in once you run the scatter chart: did the highest-ROE companies cluster at high debt-to-equity too, or was McKesson more of an outlier? A visible upward trend would support the buyback/leverage theory at scale; a scattered, no-pattern cloud would suggest McKesson's case is more unusual than systemic.]*
+The result: most of the 200 companies cluster tightly in the bottom-left corner of the chart — low debt-to-equity, low-to-moderate ROE, no visible relationship between the two. But a handful of companies break sharply away from that cluster, sitting far to the right with debt-to-equity ratios in the thousands. The most extreme point on the entire chart — debt-to-equity near 4,300 and ROE above 12 — is almost certainly McKesson.
+
+So it's not a broad, systemic trend across all 200 companies — most businesses don't show any strong link between leverage and ROE. But the few genuine outliers on the chart are exactly the companies worth double-checking before taking their ROE at face value, since extreme ROE and extreme leverage do show up together for them. McKesson isn't unique in kind, just the most extreme example of a small group.
 
 Either way, this is the more rigorous version of the same instinct: don't trust one ratio, and don't trust one company's story as proof of a pattern until you've checked it across the full dataset.
 
