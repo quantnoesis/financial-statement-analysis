@@ -8,7 +8,7 @@ I have a formal background in finance and accounting, but I'm brand new to Pytho
 
 ## Step One: Just Look at the Data
 
-Before doing anything clever, I loaded the CSV with pandas and checked the basics: what columns existed, how many rows, what data types, and quick summary statistics (mean, min, max) across all the ratios. This is a habit worth keeping regardless of the tool — you don't analyze what you haven't looked at first.
+Before doing anything clever, I loaded the CSV with pandas and checked the basics: what columns existed, how many rows, what data types, and quick summary statistics (mean, min, max) across all the ratios. This is a habit worth keeping regardless of the tool you don't analyze what you haven't looked at first.
 
 ## Ranking by ROE and a Reality Check
 
